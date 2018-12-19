@@ -1,11 +1,8 @@
 # Puzzle 2 Day 1
-import os
-import sys
+
 # Variables
 ris = 0
 setFreq = set()
-
-
 
 while True:
         # Open File
