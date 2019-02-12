@@ -16,8 +16,8 @@ with open(os.path.expanduser("~/Desktop/input.txt")) as file:
                 if ( box[i] == curr_box[i]):
                     s = s + box[i]
                 if((len(s))==(len(box))-1):
-                    print(len(s))
                     print(s)
+                    file.close()
                     sys.exit(0)
     
 
