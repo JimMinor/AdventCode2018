@@ -6,8 +6,6 @@ import sys
 with open(os.path.expanduser("~/Desktop/input.txt")) as file:
     # Data Structures
     boxes = []
-    count_char = 0
-    found = False
     for line in file:
         boxes.append(line)
     while((len(boxes)>1)):
