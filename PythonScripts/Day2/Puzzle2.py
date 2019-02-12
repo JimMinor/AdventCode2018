@@ -10,7 +10,6 @@ with open(os.path.expanduser("~/Desktop/input.txt")) as file:
         boxes.append(line)
     while((len(boxes)>1)):
         curr_box=(boxes.pop(0))
-        print(len(curr_box))
         for box in boxes:
             s = ""
             for i in range(0,(len(box))):
